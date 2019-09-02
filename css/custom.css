@@ -1,3 +1,6 @@
+#app,.bg-grey{
+    background: #f7f7f7 !important;
+}
 body{
     color: #666;
 }
@@ -6,7 +9,7 @@ body{
     margin-top: -10px !important
     /* width: 136px; */
 }
- 
+
 .b-video * {
     box-sizing: border-box;
     
@@ -131,7 +134,11 @@ a{
 #hero {
     background: url(../img/hero-bg.jpg) center center;
 }
-
+.btn-primary{
+    color: #fff;
+    background-color: #1575c0;
+    border-color: #1575c0;
+}
 
  
 /* #1575c0 claro */

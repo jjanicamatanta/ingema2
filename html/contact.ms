@@ -1,9 +1,5 @@
-<section id="hero" style="height:30vh">
-    <div class="hero-container" style="padding-top: 30px">
-      <h1>Contáctanos</h1>
-    </div>
-  </section>
-<section id="contact">
+ 
+<section id="contact" class="bg-grey">
         <div class="container wow fadeInUp">
           <div class="section-header">
             <h3 class="section-title">Contact</h3>

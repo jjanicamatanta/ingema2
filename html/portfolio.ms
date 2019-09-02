@@ -1,9 +1,5 @@
-<section id="hero" style="height:30vh">
-    <div class="hero-container" style="padding-top: 30px">
-      <h1>Nuestro Trabajo</h1>
-    </div>
-  </section>
-<section id="portfolio">
+ 
+<section id="portfolio" class="bg-grey">
         <div class="container wow fadeInUp">
           <div class="section-header">
             <h3 class="section-title">Portfolio</h3>

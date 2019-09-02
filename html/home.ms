@@ -1,4 +1,4 @@
-<section id="hero" class="b-video" style="position: relative">
+<section id="hero" class="b-video " style="position: relative">
       
     <i class="fa fa-volume-off icono-muted" onclick="muteOnOff()" ></i>
 
