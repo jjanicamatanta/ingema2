@@ -62,7 +62,7 @@
       });
 
       this.get(hash+'/nuestro-portafolio', function(context) {
-        redirect(this,context,'portfolio.ms','Nuestro Potafolio');
+        redirect(this,context,'portfolio.ms','Nuestro Portafolio');
       });
 
 
@@ -83,12 +83,14 @@
   
       this.before(function() {
         // $('footer, #app').hide();
+        $('.content-page').hide();
         var hash = document.location.hash;
         $("nav").find("li").removeClass("menu-active");
         $("nav").find("a[href='"+hash+"']").parent().addClass("menu-active");
       });
       
       this.after(function() {
+        $('.content-page').fadeIn('fast');
         // $("#app, footer").fadeIn('slow');
         // $('#preloader').show();
       });

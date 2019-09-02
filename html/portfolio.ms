@@ -2,7 +2,7 @@
 <section id="portfolio" class="bg-grey">
         <div class="container wow fadeInUp">
           <div class="section-header">
-            <h3 class="section-title">Portfolio</h3>
+            <h3 class="section-title">Portafolio</h3>
             <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
           </div>
           <div class="row">
