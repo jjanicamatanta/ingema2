@@ -41,7 +41,8 @@ body{
 }
 
 #header.header-fixed{
-    background: rgba(31, 56, 100,.9)
+    /* background: rgba(31, 56, 100,.9) */
+    background: #1f3864
 }
 
 #footer{
