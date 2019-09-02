@@ -1,0 +1,138 @@
+body{
+    color: #666;
+}
+.logo-ingema{
+    height: 50px;
+    margin-top: -10px !important
+    /* width: 136px; */
+}
+ 
+.b-video * {
+    box-sizing: border-box;
+    
+}
+  
+.b-video {
+    margin: 0;
+    overflow: hidden;
+}
+
+.b-video #myVideo {
+    
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+
+#facts .counters span{
+    color: #1575c0
+}
+
+.section-header .section-title{
+    color: #1f3864
+}
+.section-header .section-description{
+    color: #666
+}
+
+#header.header-fixed{
+    background: rgba(31, 56, 100,.9)
+}
+
+#footer{
+    background: #1f3864
+}
+a{
+   color: #1575c0 
+}
+
+#call-to-action .cta-btn:hover{
+    background-color: #1f3864;
+    border: 2px solid #1f3864;
+}
+
+#hero .btn-get-started:hover{
+    background-color: #1f3864;
+    border: 2px solid #1f3864;
+}
+.hero-container > div .btn-get-started{
+    opacity: 0;
+}
+#hero:before{
+    background: rgba(0, 0, 0, 0);
+}
+.icono-muted{
+    position: absolute;
+    top: 90px;
+    right: 130px;
+    color: white;
+    opacity: 0;
+    z-index: 999;
+    cursor: pointer;
+    padding: 10px
+}
+ 
+.b-video:hover .icono-muted{
+    opacity: 1;    
+    -webkit-transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -ms-transition: opacity .1s ease-in-out;
+    -o-transition: opacity .1s ease-in-out;
+    transition: opacity .1s ease-in-out;
+}
+.hero-container > div{
+    opacity: .3;padding: 20px;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+.hero-container > div:hover,.hero-container > div:hover .btn-get-started {
+    opacity: 1;
+}
+
+#hero:before{
+    /* background: rgba(31, 56, 100,.9); */
+}
+
+#services .icon{
+    background: #1575c0;
+}
+#services .box:hover .icon i{
+    color: #1575c0;    
+}
+
+#services .box:hover .icon{
+    background: #fff;
+    border: 2px solid #1575c0;    
+}
+
+#services .title a{
+    color: #1f3864
+}
+
+.nav-menu > li > a:before{
+    background-color: #1575c0;
+}
+
+#about .about-container .title{
+    color: #1f3864
+}
+
+@media (min-width: 1024px){
+    #hero {
+        background-attachment: inherit;
+    }
+}
+
+#hero {
+    background: url(../img/hero-bg.jpg) center center;
+}
+
+
+ 
+/* #1575c0 claro */
+/* #1f3864 oscuro */
