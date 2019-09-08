@@ -82,6 +82,16 @@
   
   
       this.before(function() {
+        
+        $.ajax({
+          url: "https://elcomercio.pe/noticias/medio-ambiente",
+        
+          success: function( response ) {
+              console.log( response ); // server response
+          }
+      
+        });
+
         // $('footer, #app').hide();
         $('.content-page').hide();
         var hash = document.location.hash;
